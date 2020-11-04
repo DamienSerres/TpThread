@@ -31,7 +31,7 @@ public class TestTraitementLong extends JFrame {
         contentPane.add(btnAction);
         setTitle("Test de progressBar");
 
-// Ajout du listener du bouton
+// Ajout du listener du bouton sans Thread
 //        btnAction.addActionListener(
 //      new ActionListener() {
 //        public void actionPerformed(ActionEvent e) {
@@ -41,6 +41,7 @@ public class TestTraitementLong extends JFrame {
 //        }
 //      }
 //    );
+// Ajout du listener du bouton avec Thread
         btnAction.addActionListener(
                 new ActionListener() {
             public void actionPerformed(ActionEvent e) {
